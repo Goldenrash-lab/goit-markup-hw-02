@@ -54,6 +54,7 @@ ul{
 .logo span{
     color: var(--navy-blue);
 }
+
 .menu__list{
     color: var(--navy-blue);
     font-weight: 500;
@@ -220,4 +221,7 @@ ul{
 }
 .footer__text{
     letter-spacing: 0.02em;
+}
+.footer .logo .span{
+    color: var(--cloud);
 }
