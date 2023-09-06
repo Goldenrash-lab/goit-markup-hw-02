@@ -34,6 +34,13 @@ ul{
 }
 /* HEADER*/
 
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+
 .logo{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -42,10 +49,10 @@ ul{
     letter-spacing: 0.03em;
     font-weight: 800;
     text-decoration: none;
-    color: var(--navy-blue);
-}
-.logo .logo__part{
     color: var(--iris);
+}
+.logo span{
+    color: var(--navy-blue);
 }
 .menu__list{
     color: var(--navy-blue);
