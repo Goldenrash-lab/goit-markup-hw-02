@@ -78,7 +78,8 @@ ul{
     color:var(--ocean);
 }
 .address__list{
-    list-style none;
+    letter-spacing: 0.02em;
+
 }
 
 /*Banner*/
@@ -112,12 +113,12 @@ ul{
 /* benefits*/
 
 .benefits__title{
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: var(--navy-blue);
-        }
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
 .benefits__item-text{
     letter-spacing: 0.02em;
 }
@@ -162,7 +163,7 @@ ul{
     letter-spacing: 0.02em;
 }
 /* FILTERS */
-.filters{
+.filters__list{
     text-align: center;
 }
 .filters__item{
