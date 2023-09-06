@@ -222,6 +222,6 @@ ul{
 .footer__text{
     letter-spacing: 0.02em;
 }
-.footer .logo .span{
+.footer .logo span{
     color: var(--cloud);
 }
