@@ -74,8 +74,7 @@ ul{
    
 }
 .address__list-item:hover,
-.address__mail:focus,
-.address__tel:focus{
+.address:focus{
     color:var(--ocean);
 }
 .address__list{
@@ -114,6 +113,13 @@ ul{
 /* benefits*/
 
 .benefits__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.benefits__item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
